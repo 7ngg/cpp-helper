@@ -63,6 +63,6 @@ public:
 
         delete[] Array;
         Array = temp;
-        // temp здесь удалиться сам
+        // temp здесь удалится сам
     }
 };
