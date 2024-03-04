@@ -1,5 +1,10 @@
 #include <iostream>
 
+/*
+*   Задан массив. Сдвинуть все элементы вправо так,
+*   чтобы последний элемент оказалася на первом месте 
+*/
+
 void printArr(int (&arr)[], const int size) {
     std::cout << "Array: ";
     for (int i = 0; i < size; i++) {

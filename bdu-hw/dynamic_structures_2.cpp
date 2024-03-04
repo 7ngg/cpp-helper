@@ -1,5 +1,10 @@
 #include <iostream>
 
+/*
+*   Заданы массив и число. Удалить все вхождения заданного числа
+*   (и выполнить сдвиг?)
+*/
+
 void move_left(int (&arr)[], int &size, const int index) {
     for (int i = index + 1; i < size; i++) {
         arr[i - 1] = arr[i];
