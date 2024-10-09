@@ -71,5 +71,11 @@ int main() {
             << "Max: " << max->initial_number << '\t' << max->max << '\n'
             << "Luckiest: " << luckiest->initial_number << '\t' << luckiest->lucky << std::endl;
 
+    for (size_t i = 0; i < v->size(); i++)
+    {
+        delete v->at(i);
+    }
+    delete v;
+
     return 0;
 }
