@@ -1,7 +1,7 @@
 #include <iostream>
 
 int get_max_digit(int x) {
-  int max = 0;
+  int max = x % 10;
 
   while (x > 0) {
     if (x % 10 > max) max = x % 10;

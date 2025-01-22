@@ -11,7 +11,7 @@ int get_sum(int x) {
   return sum;
 }
 
-int main (int argc, char *argv[]) {
+int main () {
   int x;
   std::cin >> x;
 

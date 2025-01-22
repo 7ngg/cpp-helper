@@ -16,7 +16,7 @@ int main() {
   int x;
   std::cin >> x;
   
-  std::cout << "Zeros count: " << get_sevens_count(x);
+  std::cout << "Sevens count: " << get_sevens_count(x);
 
   return 0;
 }
